@@ -24,9 +24,6 @@ p, ol, ul, table {
   max-width:800px;
   margin: 0 auto 1em auto;
 }
-ol, ul {
-  padding-left: 100px;
-}
 table {
   width:60%;
   border-collapse:collapse;

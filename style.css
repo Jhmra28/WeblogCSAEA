@@ -2,6 +2,7 @@ body {
   margin: 10px;
   font-family: sans-serif;
   background-color: rgb(28, 17, 33);
+  text-align:center;
 }
 h1 {
   color: white;
@@ -17,11 +18,19 @@ h3 {
   color: white;
 }
 p, ol, ul, table {
+  line-height:1.5;
+  text-align:left;
   color: white;
+  max-width:800px;
+  margin: 0 auto 1em auto;
+}
+ol, ul {
+  padding-left: 100px;
 }
 table {
   width:60%;
   border-collapse:collapse;
+  margin: 0 auto 10px auto;
 }
 th, td {
   padding: 5px;

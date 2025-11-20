@@ -1,12 +1,13 @@
 body {
+  margin: 10px;
   font-family: sans-serif;
   background-color: rgb(28, 17, 33);
 }
 h1 {
   color: white;
   text-shadow:
-    -2px -1px 3px rgb(0, 242, 234),
-    3px 1px 3px rgb(255, 0, 80);
+    -2px -2px 1px rgb(0, 242, 234),
+    2px 2px 1px rgb(255, 0, 80);
   font-size: 48px;
 }
 h2 {
@@ -15,6 +16,23 @@ h2 {
 h3 {
   color: white;
 }
-p {
+p, ol, ul, table {
   color: white;
+}
+table {
+  width:60%;
+  border-collapse:collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  background-color:rgb(255, 0, 80);
+  border: 1px solid white;
+}
+td {
+  border: 1px solid white;
+}
+hr {
+  border-color: rgb(28, 17, 33);
 }

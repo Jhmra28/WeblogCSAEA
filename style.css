@@ -7,6 +7,12 @@ body {
 
 .right{
   float: right;
+  margin: 50px;
+}
+
+.left{
+  float: left;
+  margin: 50px;
 }
 
 h1 {
